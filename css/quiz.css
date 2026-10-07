@@ -1,0 +1,143 @@
+/* --------- apresentação/Banner-------- not ok*/
+
+
+
+.card-banner {
+    background-color: rgb(202, 232, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 380px;
+
+}
+
+.card-banner-information {
+    height: 300px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.card-banner-information h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.card-banner-information h2 {
+    font-family: "Montserrat", sans-serif;
+    color: blue;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 35px;
+    margin-bottom: 1px;
+
+}
+
+.card-banner-information p {
+    margin-top: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+
+}
+
+
+
+
+.card-banner img {
+    /*ok*/
+    margin-right: 20px;
+    height: 400px;
+}
+
+
+
+#boas-vindas {
+    /*quase*/
+    box-shadow: 1px 2px 5px rgb(166, 197, 218);
+    background-color: rgb(251, 249, 249);
+    color: blue;
+    height: 20px;
+    width: 220px;
+    padding: 2px 1px 2px 5px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/*------------------------------------*/
+
+.card-quiz-e-diario {
+
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.opcoes-quiz {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite quebrar para outra linha */
+    gap: 10px;
+    max-width: 1100px;
+
+}
+
+
+/* ------------ ok ---------------*/
+/*menu de quizzes*/
+.quizes-assuntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 222, 222);
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+    min-height: 100px;
+    max-height: 120px;
+    padding: 1px 32px 1px 9px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.quizes-assuntos #logo {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    gap: 5px;
+}
+
+
+.quizes-assuntos h2 {
+    font-size: 17px;
+}
+
+#formas {
+    margin-left: 10px;
+    color: rgb(5, 174, 146);
+    font-size: 40px;
+}
+
+.quizes-assuntos a {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.9s ease;
+}
+
+.quizes-assuntos a:hover {
+    background-color: rgb(152, 152, 152);
+    color: rgb(4, 244, 244);
+    ;
+}
+
+.quizes-assuntos i {
+    color: blue;
+}

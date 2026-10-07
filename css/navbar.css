@@ -1,0 +1,25 @@
+.navbar {
+    background: linear-gradient(90deg, #4f62cb, #142ec0);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+    padding: 6px 10px;
+    font-family: arial;
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: rgba(58, 52, 81, 0.867);
+    transition-duration: 0.8s;
+}
+
+.nomesite {
+    color: white;
+}

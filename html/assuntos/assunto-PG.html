@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../../css/botaovoltar.css" type="text/css" rel="stylesheet">
+    <link href="../../css/text-assuntos.css" type="text/css" rel="stylesheet">
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <a href="../assuntos.html" class="btn-voltar-fixo">
+        🏠 Voltar para o Menu
+    </a>
+    <header class="navbar-assuntos">
+
+    </header>
+    <main class="card">
+        <h1>Progreção Geométrica</h1>
+        <p>A PG é uma sequência especial definida por uma regra de multiplicação constante.
+            Matematicamente, a sequência segue o padrão \((a_1, a_1 \cdot q, a_1 \cdot q^2, \dots)\).
+            Enquanto na PA a diferença entre os termos é constante, na PG o quociente entre termos consecutivos
+            é que permanece sempre igual.</p>
+
+        <h2>Razão \((q)\)</h2>
+        <p>A razão de uma PG é o fator constante pelo qual multiplicamos cada termo, sendo geralmente representada pela
+            letra \(q\).
+            Para encontrar a razão de uma sequência já existente, basta dividir um termo pelo seu antecessor \((q = a_2
+            / a_1)\).
+            A razão pode ser qualquer número racional, exceto zero</p>
+        <h2> Classificação </h2>
+        <p>
+            Crescente: Quando os termos aumentam de valor. Ocorre se \(a_1 > 0\) e \(q > 1\) \((ex: 2, 4, 8...)\), ou se \(a_1 < 0\) e \(0 < q < 1\). <br>
+            Decrescente: Quando os termos diminuem de valor. Ocorre se \(a_1> 0\) e \(0 < q < 1\) \((ex: 8, 4, 2...)\), ou se \(a_1 < 0\) e \(q> 1\). <br>
+            Oscilante (ou Alternada): Quando a razão é negativa \((q < 0)\), fazendo com que os sinais dos termos se alternem entre positivo e negativo \((ex: 3, -6, 12...)\). <br>
+            Constante: Quando todos os termos são iguais, o que acontece se a razão for \(q=1\) ou se todos os termos forem nulos.<br>
+            Quase nula: Quando apenas o primeiro termo é diferente de zero e os demais são todos nulos \((q=0)\) 
+        </p>
+        <h2>Termo Geral</h2>
+        <p>A fórmula do termo geral permite encontrar qualquer termo da sequência sem precisar listar os anteriores. <br> 
+            Formula:</p>
+        <strong class="formulas">\[a_n = a_1 \times q^{n-1}\]</strong>
+        <p>Significado: <br>
+            \(a_n\): o termo que queremos encontrar (na posição \(n\)) <br>
+            \(a_1\): o primeiro termo da sequência. <br>
+            \(q\):a razão da PG. <br>
+            \(n - 1\): o numero de "passos" (multiplicações) do primeiro até o enésimo termo. </p>
+            
+            <h2>Soma dos Termos (Finita)</h2>
+            <p>Para calcular a soma de um número limitado \(n\) de termos, utiliza-se a seguinte expressão. <br> Formula:</p>
+            <strong class="formulas">\[S_n = \frac{a_1(q^n -1)}{q-1}\]</strong>
+            <p>Caso a razão seja igual a 1 \(q = 1\), todos os termos são iguais, e a soma é simplesmente \(a_1 \cdot n\).</p>
+            
+            <h2>Soma dos Termos (Infinita)</h2>
+            <p>Em uma Progressão Geométrica infinita, existem infinitos termos. Em alguns casos, mesmo sendo infinita, a soma desses termos pode resultar em um valor finito. <br>
+                Isso ocorre quando o valor absoluto da razão é menor que 1 ou, de forma equivalente. Nessa situação, os termos da PG se aproximam cada vez mais de zero, permitindo que a soma dos infinitos termos tenha um valor finito.<br> 
+                Formula:</p>
+                <strong class="formulas">\[S_\infty = \frac{a_1}{1-q}\]</strong>
+                <p>Exemplo: A soma infinita da sequência \((1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}...)\) resulta exatamente em 2</p>
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>

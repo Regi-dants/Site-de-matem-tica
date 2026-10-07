@@ -1,0 +1,198 @@
+
+/*card de apresentação*/
+#card-apresentacao {
+    background-color: #eff3fb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 400px;
+    margin-top: 0px;
+}
+
+.apresentacao {
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 340px;
+}
+
+.apresentacao-informacoes h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.apresentacao-informacoes h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: blue;
+    margin: 0px;
+}
+
+.apresentacao-informacoes p {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.apresentacao-informacoes a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    margin-left: 2px;
+    padding: 5px 9px 5px 9px;
+    border-radius: 5px;
+    transition: color 0.9s ease;
+}
+
+.apresentacao-informacoes a:hover {
+    color: black;
+}
+
+#boas-vindas {
+    background-color: rgb(251, 249, 249);
+    color: blue;
+    height: 20px;
+    width: 140px;
+    padding: 2px 1px 2px 5px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#img-de-fundo {
+    margin-top: 10px;
+    margin-right: 70px;
+    height: 400px;
+}
+
+
+
+/*
+Organizar Conquistas 
+*/
+
+#Mostrar-conquistas {
+    margin-top: 50px;
+
+    font: normal 10pt Arial;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 45px 20px;
+}
+
+
+/* ==============================
+   CARD
+================================ */
+
+.conquist {
+
+    position: relative;
+
+    background: radial-gradient(
+        circle,
+        rgb(0, 0, 210),
+        rgb(9, 9, 180)
+    );
+
+    box-shadow: 2px 2px 5px black;
+
+    width: 350px;
+    min-height: 205px;
+
+    border: 3px solid rgb(5, 134, 220);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    padding: 58px 15px 10px 15px;
+
+    border-radius: 23px;
+}
+
+
+
+
+.emblemas {
+    position: absolute;
+    top: -68px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 150px;
+    height: 150px;
+
+    object-fit: contain;
+}
+
+
+
+.conquist::before {
+    content: "";
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 90px;
+    z-index: 1;
+}
+
+
+.conquist h2 {
+    margin: 0 0 8px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+.conquist p {
+    margin: 0 0 30px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+.barra {
+    width: 80%;
+    height: 17px;
+    background-color: #555;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+.progresso {
+    height: 100%;
+    background-color: rgb(0, 132, 255);
+    border-radius: 20px;
+    transition: width 0.5s ease;
+}
+
+.conquist > span {
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+
+.conquist.bloqueada {
+    filter: grayscale(80%);
+}

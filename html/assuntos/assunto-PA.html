@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../../css/botaovoltar.css" type="text/css" rel="stylesheet">
+    <link href="../../css/text-assuntos.css" type="text/css" rel="stylesheet">
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <a href="../assuntos.html" class="btn-voltar-fixo">
+        🏠 Voltar para o Menu
+    </a>
+    <header class="navbar-assuntos">
+
+    </header>
+    <main class="card">
+        <h1>Progreção Aritmetica</h1>
+        <p>A PA é uma sequência especial que segue uma regra fixa: a
+            regularidade de somar sempre o mesmo valor para passar ao próximo termo.</p>
+
+        <h2>Razão (r)</h2>
+        <p>A razão é o valor fixo que é somado a cada termo da sequência. Para descobrir a razão de uma PA já
+            existente,
+            basta subtrair um termo do seu antecessor (por exemplo, \(a_2 - a_1\))</p>
+        <p>exemplo: na sequencia (2,5,8,11...), á razão é 3, pois 5 - 2 = 3</p>
+
+        <h2>Classificação</h2>
+        <p> Crescente: Quando a razão é positiva \(r > 0\). Os termos aumentam progressivamente \((ex: 1, 2, 3...\)).<br>
+            Decrescente: Quando a razão é negativa \(r < 0\). Os termos diminuem progressivamente \((ex: 1, 0, -1...\)) <br>
+            Constante: Quando a razão é igual a zero \(r = 0\). Todos os termos da sequência são iguais \((ex: 1, 1, 1...\))
+        </p>
+
+
+        <h2>Termo Geral</h2>
+        <p>A fórmula do termo geral permite encontrar qualquer termo da sequência sem a necessidade de listar
+            todos os anteriores.
+            A lógica é que, para chegar à posição n, subtraimos o numero de termos com -1,
+            multiplicamos pela razão e somamos com o primeiro termo. <br> Formula termo geral:
+        </p>
+        <strong class="formulas">\[a_n = a_1 + (n - 1) \times r\]</strong>
+        <p> Significado: <br>
+            \(a_n\): Termo que queremos encontrar (na posição n). <br>
+            \(a_1\): primeiro termo da sequência.<br>
+            \(n\): posição do termo desejado. <br>
+            \(r\):razão da PA.
+        </p>
+        <h2>Soma dos Termos</h2>
+        <p>
+            A soma dos n primeiros termos de uma PA é calculada multiplicando o número de termos pela média entre o 
+            primeiro e o último termo da sequência.<br> Formula:
+        </p>
+        <strong class="formulas">\[S_n = \frac{n \times (a_1 + a_n)}{2}\]</strong>
+        <p>Significado: <br>
+        \(S_n\):Resultado da soma de todos os termos até a posição n <br>
+        \(a_n\):O último termo da sequência que será somado.
+        </p>
+        
+
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../../css/botaovoltar.css" type="text/css" rel="stylesheet">
+    <link href="../../css/text-assuntos.css" type="text/css" rel="stylesheet">
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <a href="../assuntos.html" class="btn-voltar-fixo">
+        🏠 Voltar para o Menu
+    </a>
+    <header class="navbar-assuntos">
+
+    </header>
+    <main class="card">
+        <h1>Probabilidade</h1>
+        <p>A probabilidade é o ramo da matemática que desenvolve estudos para a análise de fenômenos onde o acaso está
+            presente.
+            Ela permite calcular com precisão as chances de eventos futuros ocorrerem, sendo essencial em diversas áreas
+            como seguros,
+            previsões meteorológicas e economia.
+        </p>
+        <h2>Espaço Amostral (S ou \( \Omega\))</h2>
+        <p>O espaço amostral é o conjunto de todos os resultados possíveis de um experimento aleatório. <br>
+            Exemplo: No lançamento de um dado, o espaço amostral é \(S = \{1, 2, 3, 4, 5, 6\}\)6. No lançamento de uma
+            moeda, é \(S = \{Cara, Coroa\}\)</p>
+
+        <h2>Evento</h2>
+        <p>Um evento é qualquer subconjunto do espaço amostral.
+            Representa os resultados que queremos que aconteçam dentro do experimento. <br>
+            Evento Certo: É igual ao próprio espaço amostral. <br>
+            Evento Impossivel: É representado por um conjunto vazio \((\varnothing)\) <br>
+            exemplo: No dado, o evento "sair um número primo" seria \(A = {2, 3, 5}\)
+        </p>
+        <h2>Casos Favoráveis e Possíveis</h2>
+        <p>Para o cálculo básico de probabilidade (Modelo de Laplace), dividimos os elementos em dois grupos: <br>
+            Casos Possiveis: O número total de elementos no espaço amostral, denotado por \(n(S)\). <br>
+            Casos Favoráveis (ou desejados): O número de elementos que compõem o evento que estamos estudando, denotado
+            por \(n(a)\)</p>
+
+        <h2>Probabilidade (Fórmula)</h2>
+        <p>
+            A probabilidade de um evento \(A\) ocorrer é a razão entre o número de casos favoráveis e o número de casos
+            possíveis.
+            A função de probabilidade \(P(A)\) sempre resulta em um valor entre 0 \((0\%)\) e 1 \((100\%)\) <br>
+            Formula: </p>
+        <strong class="formulas">\[P(A) = \frac{n(a)}{n(s)}\]</strong>
+        <p>Significado: <br>
+            \(P(A)\): Representa a probabilidade de o evento A ocorrer. <br>
+            \(n(a)\): É o número de elementos do evento $A$, também chamados de casos favoráveis ou desejados. <br>
+            \(n(s)\) ou n\((\Omega)\):É o número de elementos do Espaço Amostral, ou seja, o total de casos possíveis dentro do
+            experimento
+            . O símbolo ômega \((\Omega)\) é frequentemente usado para representar esse espaço.</p>
+
+
+        <h2>Evento Complementar \((A^c)\)</h2>
+        <p>O evento complementar representa a probabilidade de um evento não ocorrer.
+            A soma da probabilidade de um evento com o seu complementar é sempre igual a 1 (ou 100%). <br>
+            Formula:
+        </p>
+
+        <strong class="formulas">\[P(A^c) = 1 - P(A)\]</strong>
+        <p>Significado: <br>
+        \(A^c\):Indica o evento complementar de A, que representa a situação de o evento A não ocorrer <br>
+        \(1\):Representa o valor de \(100\%\), que é a probabilidade do "evento certo" (o espaço amostral total)</p>
+        <p>Exemplo: Se a probabilidade de chover é 30% (\(P(A)=0,3\)), a probabilidade de não chover, que corresponde ao
+            evento complementar \(A^c\),
+            \[P(A^c)=1 - P(A)=1 - 0,3 =0,7\]
+            Portanto, a chance de não chover é 70%.</p>
+
+        <h2>Exemplos</h2>
+        <p> Lançamento de Moeda: Ao jogar uma moeda duas vezes, existem 4 resultados possíveis:
+            \((Cara, Cara)\),\((Cara, Coroa)\),\((Coroa, Cara)\),\((Coroa, Coroa)\). <br>
+            Sorteio de Chaves: Em um molho com 10 chaves onde apenas 2 abrem um cadeado,
+            a probabilidade de escolher a chave correta ao acaso é de \(\frac{2}{10} = \frac{1}{5} \) ou 20%. <br>
+            Bolas em uma Urna: Se uma urna tem 6 bolas pretas e 4 brancas (total 10), a chance de tirar uma bola branca
+            é \(\frac{4}{10} = 40\%\) <br>
+            Pesquisa de Consumo: Em um grupo de 10.000 consumidores, se 2.000 utilizam duas marcas
+            específicas simultaneamente, a probabilidade de sortear alguém que use ambas é
+            \(\frac{2.000}{10.000} = 20\%\)
+        </p>
+
+
+    </main>
+
+</body>
+
+</html>

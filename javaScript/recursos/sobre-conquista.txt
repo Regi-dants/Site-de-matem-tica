@@ -1,0 +1,17 @@
+verificar conquista:
+    case 'tipo' "todosquiz":
+        verificar regra:
+            case 'regra' "gabarito":
+
+
+
+    case 'tipo' "geral":
+        verificar regra:
+            case 'regra' "primeiro-acesso":
+            case 'regra' "acesso":
+
+
+
+    case 'tipo' "porquiz":
+        verificar regra:
+            case 'regra':
