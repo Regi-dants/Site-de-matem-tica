@@ -23,3 +23,9 @@
 .nomesite {
     color: white;
 }
+
+@media (max-width: 550px) {
+    .navbar {
+        font-size: 10px;
+    }
+}

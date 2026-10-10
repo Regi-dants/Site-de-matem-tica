@@ -6,7 +6,7 @@
 
 
 @media (max-width: 950px){
-
+    
     #card-apresentacao{
         margin-top: 10px;
         height: 230px;
@@ -33,7 +33,7 @@
         height: 280px;
         
     }
- 
+    
 }
 
 
@@ -43,7 +43,8 @@
 
 
 
-@media (max-width: 768px){
+
+@media (max-width: 550px){
 
     #card-apresentacao{
         margin-top: 10px;
