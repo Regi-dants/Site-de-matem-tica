@@ -8,12 +8,17 @@ const assuntos = [
     {
         titulo: "Geometria <br>Espacial",
         logo: "bi-box",
-        link: "#"
+        link: "perguntas/geometria-espacial.html"
     },
     {
         titulo: "Estatística",
         logo: "bi-bar-chart-line-fill",
         link: "#"
+    },
+    {
+        titulo: "Porcentagem",
+        logo: "bi-bar-chart-line-fill",
+        link: "perguntas/porcentagem.html"
     },
     {
         titulo: "Probabilidade",
@@ -23,7 +28,7 @@ const assuntos = [
     {
         titulo: "Razão e <br>Proporção",
         logo: "bi-pie-chart-fill",
-        link: "#"
+        link: "perguntas/razão-e-proporção.html"
     },
     {
         titulo: "PA e <br>PG",

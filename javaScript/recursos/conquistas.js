@@ -150,6 +150,9 @@ const quantidadeQuestoes = {
     "geometria-plana": 13,
     "probabilidade": 13,
     "pa-pg": 10,
+    "geometria-espacial": 7,
+    "razão-e-proporção":10,
+    "porcentagem":10,
 };
 
 

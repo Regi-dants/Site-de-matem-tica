@@ -36,6 +36,7 @@ h2 {
 
 .question img {
     align-content: center;
+    max-width: 300px;
 }
 
 .quiz {

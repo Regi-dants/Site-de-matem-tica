@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- por enquanto esse está ok-->
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link href="../../css/botaovoltar.css" type="text/css" rel="stylesheet">
+    <link href="../../css/style-quiz.css" type="text/css" rel="stylesheet">
+    <script>
+        window.MathJax = {
+            loader: {
+                load: ['[tex]/cancel']
+            },
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']],
+                packages: {
+                    '[+]': ['cancel']
+                }
+            }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+    <a href="../quiz.html" class="btn-voltar-fixo">
+        🏠 Voltar para o Menu
+    </a>
+
+    <h2>Quiz sobre Razão e Proporção</h2>
+    <header id="quiz-container">
+
+        <div class="question"></div>
+
+        <button id="btn-corrijir" onclick="corrigir()">Corrigir</button>
+
+
+        <div id="resultado"></div>
+
+    </header>
+    <script src="../../javaScript/quiz/razão-e-proporção.js"></script>
+    <script src="../../javaScript/criar-perguntas.js"></script>
+    <script src="../../javaScript/salvar/salvamento-automatico.js"></script>
+    <script src="../../javaScript/recursos/conquistas.js"></script>
+    <script src="../../javaScript/corrijir.js"></script>
+
+</body>
+
+</html>
