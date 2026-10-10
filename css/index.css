@@ -80,39 +80,7 @@ body {
    RESPONSIVIDADE - CELULAR
    ========================= */
 
-@media (max-width: 600px) {
 
-    #card-apresentacao {
-        flex-direction: column;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .apresentacao {
-        width: 90%;
-        height: auto;
-        margin: 20px auto;
-    }
-
-    .apresentacao-informacoes h1 {
-        font-size: 25px;
-    }
-
-    .apresentacao-informacoes h2 {
-        font-size: 25px;
-    }
-
-    #img-de-fundo {
-        height: 250px;
-        margin: 10px auto;
-    }
-
-    .apresentacao-informacoes a {
-        display: block;
-        width: fit-content;
-        margin-top: 8px;
-    }
-}
 
 
 
