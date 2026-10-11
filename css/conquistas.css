@@ -1,4 +1,3 @@
-
 /*card de apresentação*/
 #card-apresentacao {
     background-color: #eff3fb;
@@ -96,11 +95,9 @@ Organizar Conquistas
 
     position: relative;
 
-    background: radial-gradient(
-        circle,
-        rgb(0, 0, 210),
-        rgb(9, 9, 180)
-    );
+    background: radial-gradient(circle,
+            rgb(0, 0, 210),
+            rgb(9, 9, 180));
 
     box-shadow: 2px 2px 5px black;
 
@@ -187,7 +184,7 @@ Organizar Conquistas
     transition: width 0.5s ease;
 }
 
-.conquist > span {
+.conquist>span {
     margin-top: 6px;
     font-size: 18px;
 }
@@ -195,4 +192,30 @@ Organizar Conquistas
 
 .conquist.bloqueada {
     filter: grayscale(80%);
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .conquist {
+
+        width: 290px;
+        min-height: 135px;
+        padding: 58px 15px 10px 15px;
+    }
+}
+
+
+/* ============================= */
+/* RESPONSIVIDADE - CELULARES */
+/* ============================= */
+
+@media (max-width: 600px) {
+    .conquist {
+
+        width: 220px;
+        min-height: 105px;
+        padding: 58px 15px 10px 15px;
+    }
 }

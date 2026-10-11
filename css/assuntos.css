@@ -65,19 +65,19 @@ body {
  CRIADOR DOS ASSUNTOS
 =====================*/
 
-#add-assuntos{
+#add-assuntos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 10px;
     margin-left: 30px;
 }
 
-.criador-assuntos:hover{
+.criador-assuntos:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.criador-assuntos{
+.criador-assuntos {
     margin-top: 12px;
     margin-bottom: 12px;
     background-color: white;
@@ -91,22 +91,89 @@ body {
 }
 
 
-.criador-assuntos a{
+.criador-assuntos a {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 18px;
-    
+
     background-color: #6c7de7;
     color: white;
-    
+
     text-decoration: none;
     border-radius: 8px;
-    
+
     transition: 0.8s;
 }
 
-.criador-assuntos a:hover{
-    color:black;
+.criador-assuntos a:hover {
+    color: black;
     background-color: rgb(9, 59, 130);
 
+}
+
+
+@media (max-width: 1500px) {
+    #add-assuntos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    #add-assuntos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+
+
+    .criador-assuntos {
+        max-height: 130px;
+        min-width: 120px;
+        max-width: 240px;
+    }
+
+    .criador-assuntos a {
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    .criador-assuntos h2 {
+        font-size: 15px;
+    }
+
+    .criador-assuntos p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* ============================= */
+/* RESPONSIVIDADE - CELULARES */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+    #add-assuntos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+
+
+    .criador-assuntos {
+        max-height: 130px;
+        min-width: 120px;
+        max-width: 240px;
+    }
 }

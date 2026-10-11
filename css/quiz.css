@@ -2,23 +2,23 @@
 
 
 
-.card-banner {
+#card-apresentacao {
     background-color: rgb(202, 232, 252);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 380px;
 
 }
 
-.card-banner-information {
+.apresentacao {
     height: 300px;
     width: 500px;
     margin-left: 40px;
     margin-top: 60px;
 }
 
-.card-banner-information h1 {
+.apresentacao-informacoes h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -26,7 +26,7 @@
 
 }
 
-.card-banner-information h2 {
+.apresentacao-informacoes h2 {
     font-family: "Montserrat", sans-serif;
     color: blue;
     font-weight: bold;
@@ -36,7 +36,7 @@
 
 }
 
-.card-banner-information p {
+.apresentacao-informacoes p {
     margin-top: 1px;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -46,7 +46,7 @@
 
 
 
-.card-banner img {
+#img-de-fundo {
     /*ok*/
     margin-right: 20px;
     height: 400px;
@@ -140,4 +140,69 @@
 
 .quizes-assuntos i {
     color: blue;
+}
+
+
+@media (max-width: 1024px) {
+
+    .quizes-assuntos {
+        min-height: 100px;
+        max-height: 120px;
+    }
+
+    .quizes-assuntos h2 {
+        font-size: 15px;
+    }
+
+    #formas {
+        margin-left: 10px;
+        color: rgb(5, 174, 146);
+        font-size: 25px;
+    }
+
+    .quizes-assuntos a {
+        font-size: 16px;
+    }
+}
+
+
+/* ============================= */
+/* RESPONSIVIDADE - CELULARES */
+/* ============================= */
+
+@media (max-width: 600px) {
+    .quizes-assuntos {
+        display: flex;
+        flex-direction: column;
+
+        min-height: 80px;
+        max-height: 100px;
+
+    }
+
+    .card-quiz-e-diario {
+        flex-direction: column;
+    }
+
+
+
+
+    .quizes-assuntos h2 {
+        font-size: 13px;
+    }
+
+    #formas {
+        font-size: 23px;
+    }
+
+    .quizes-assuntos a {
+        background-color: white;
+        color: blue;
+        border-color: blue;
+        border-radius: 5px;
+        padding: 2px 5px 2px 5px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: all 0.9s ease;
+    }
 }
