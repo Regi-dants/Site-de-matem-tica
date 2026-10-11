@@ -65,28 +65,67 @@
 
 
 
+/* ============================= */
+/* RESPONSIVIDADE - TABLETS */
+/* ============================= */
 
-
-
-
-
-@media (max-width:550px){
-    .card-diario{
-        min-width: 50px;
+@media (max-width: 1024px) {
+    .card-diario {
+        min-width: 200px;
     }
-    
-    .card-diario h1{
-        font-size: 12px;
+
+    .card-diario a {
+        color: rgb(47, 168, 168);
     }
-    .card-diario h4{
+
+    .card-diario h1 {
+        font-size: 20px;
+    }
+
+    .card-diario h4 {
+        font-size: 15px;
+    }
+
+    .card-diario p {
+        font-size: 14px;
+    }
+
+    #comecar {
+        max-width: 120px;
+        font-size: 15px;
+    }
+
+
+}
+
+
+/* ============================= */
+/* RESPONSIVIDADE - CELULARES */
+/* ============================= */
+
+@media (max-width: 600px) {
+    .card-diario {
+        min-width: 100px;
+    }
+
+    .card-diario a {
+        color: rgb(47, 168, 168);
+    }
+
+    .card-diario h1 {
+        font-size: 14px;
+    }
+
+    .card-diario h4 {
         font-size: 11px;
     }
-    .card-diario p{
-        text-shadow: 2px 2px 3px black;
-        font-size: 9px;
+
+    .card-diario p {
+        font-size: 10px;
     }
-    #comecar{
-        max-width: 70px;
+
+    #comecar {
+        max-width: 100px;
         font-size: 10px;
     }
 }

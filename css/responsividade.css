@@ -1,81 +1,105 @@
+/* ============================= */
+/* RESPONSIVIDADE - TABLETS */
+/* ============================= */
 
+@media (max-width: 1024px) {
 
-
-
-
-
-
-@media (max-width: 950px){
-    
-    #card-apresentacao{
-        margin-top: 10px;
-        height: 230px;
-        gap:15px;
-    }
-    .apresentacao {
-        width: 90%;
+    #card-apresentacao {
+        gap: 20px;
         height: auto;
-        margin: 20px auto;
+        min-height: 350px;
+        padding: 20px;
     }
-    .apresentacao-informacoes h1,.apresentacao-informacoes h2{
+
+    .apresentacao {
+        width: 50%;
+        height: auto;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .apresentacao-informacoes h1,
+    .apresentacao-informacoes h2 {
+        font-size: 30px;
+    }
+
+    .apresentacao-informacoes p {
+        font-size: 15px;
+    }
+
+    .apresentacao-informacoes a {
         font-size: 20px;
     }
-    .apresentacao-informacoes a,.apresentacao-informacoes p{
-        font-size: 15px;
-        max-width: 400px;
+
+    #boas-vindas {
+        max-width: 100%;
+        box-sizing: border-box;
     }
-    #boas-vindas{
-        width: 130px;
-        height: 14px;
-        font-size: 14px;
+
+    #img-de-fundo {
+        width: 40%;
+        height: auto;
+        max-height: 350px;
+        object-fit: contain;
+        margin: 0;
     }
-    #img-de-fundo{
-        height: 280px;
-        
-    }
-    
 }
 
 
+/* ============================= */
+/* RESPONSIVIDADE - CELULARES */
+/* ============================= */
 
+@media (max-width: 600px) {
 
-
-
-
-
-
-@media (max-width: 550px){
-
-    #card-apresentacao{
-        margin-top: 10px;
-        height: 200px;
-        gap:5px;
-    }
-    .apresentacao {
-        width: 90%;
+    #card-apresentacao {
+        flex-direction: column;
         height: auto;
-        margin: 20px auto;
+        gap: 15px;
+        padding: 25px 15px;
+        box-sizing: border-box;
     }
-    .apresentacao-informacoes h1,.apresentacao-informacoes h2{
-        font-size: 10px;
+
+    .apresentacao {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .apresentacao-informacoes a,.apresentacao-informacoes p{
-        font-size: 10px;
-        max-width: 120px;
+
+    .apresentacao-informacoes h1,
+    .apresentacao-informacoes h2 {
+        font-size: 26px;
+        overflow-wrap: break-word;
     }
-    #boas-vindas{
-        width: 90px;
-        height: 10px;
-        font-size: 10px;
+
+    .apresentacao-informacoes p {
+        font-size: 14px;
+        line-height: 1.6;
     }
-    #img-de-fundo{
-        height: 170px;
-        
-    }
+
     .apresentacao-informacoes a {
-        display: block;
-        width: fit-content;
+        display: inline-block;
+        font-size: 18px;
         margin-top: 8px;
     }
-    
+
+    #boas-vindas {
+        width: fit-content;
+        max-width: 100%;
+        height: auto;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+
+    #img-de-fundo {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        max-height: 300px;
+        object-fit: contain;
+        margin: 0;
+    }
 }
