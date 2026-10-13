@@ -67,27 +67,19 @@ body {
 
 #add-assuntos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 15px;
-    
+
 }
 
-.criador-assuntos:hover {
+.criador-assuntos a:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(12, 78, 159);
 }
 
-.criador-assuntos {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    background-color: white;
-    box-shadow: 8px 0px 0px blue;
-    max-height: 160px;
-    min-width: 230px;
-    max-width: 300px;
-    border-radius: 15px;
-    padding: 25px;
-    transition: transform 0.2s, box-shadow 0.2s;
+.criador-assuntos{
+    width: 250px;
 }
 
 
@@ -95,8 +87,9 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 18px;
+    box-shadow: 6px 2px 1px rgb(130, 130, 132);
 
-    background-color: #6c7de7;
+    background-color: #144ab6;
     color: white;
 
     text-decoration: none;
@@ -104,12 +97,15 @@ body {
 
     transition: 0.8s;
 }
-
-.criador-assuntos a:hover {
-    color: black;
-    background-color: rgb(9, 59, 130);
+.criador-assuntos h2{
+    font-size: 20px;
+}
+.criador-assuntos p{
+    font-size: 15px;
 
 }
+
+
 
 
 
@@ -155,20 +151,26 @@ body {
 @media (max-width: 600px) {
 
     #add-assuntos {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
         display: grid;
         margin-top: 10px;
         margin-left: 30px;
     }
-    .criador-assuntos h2{
+
+    .criador-assuntos h2 {
         font-size: 12px;
     }
-    .criador-assuntos a{
+
+    .criador-assuntos a {
         font-size: 9px;
     }
-    .criador-assuntos p{
+
+    .criador-assuntos p {
         font-size: 10px;
     }
-    .criador-assuntos{
+
+    .criador-assuntos {
         min-width: 100px;
         max-width: 135px;
         min-height: 50px;
@@ -176,5 +178,5 @@ body {
 
 
 
-    
+
 }

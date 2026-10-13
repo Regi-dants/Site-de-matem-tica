@@ -9,7 +9,7 @@ const assuntos = [
         descricao: "Estude sólidos geométricos, áreas, volumes e suas propriedades.",
         link: "#"
     },
-    
+
     {
         titulo: "Geometria Analítica",
         descricao: "Aprenda a trabalhar com pontos, retas, distâncias e coordenadas.",
@@ -47,9 +47,10 @@ for (const assunto of assuntos) {
 
     container.innerHTML += `
         <nav class="criador-assuntos">
+            <a onclick="verificarConquistas({ tipoEvento: 'acesso',assunto:'${assunto.titulo}' });" href="${assunto.link}"> 
             <h2>${assunto.titulo}</h2>
             <p>${assunto.descricao}</p>
-            <a onclick="verificarConquistas({ tipoEvento: 'acesso',assunto:'${assunto.titulo}' });" href="${assunto.link}"> Acessar assunto </a>
+            Clique para Acessar</a>
         </nav>
     `;
 
