@@ -67,9 +67,9 @@ body {
 
 #add-assuntos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-top: 10px;
-    margin-left: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    
 }
 
 .criador-assuntos:hover {
@@ -170,7 +170,7 @@ body {
     }
     .criador-assuntos{
         min-width: 100px;
-        max-width: 150px;
+        max-width: 135px;
         min-height: 50px;
     }
 

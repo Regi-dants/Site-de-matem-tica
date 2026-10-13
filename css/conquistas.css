@@ -214,9 +214,9 @@ Organizar Conquistas
 @media (max-width: 600px) {
     .conquist {
 
-        width: 200px;
+        width: 180px;
         min-height: 105px;
-        padding: 48px 15px 10px 15px;
+        padding: 48px 4px 10px 4px;
     }
     .conquist h2{
         font-size: 15px;

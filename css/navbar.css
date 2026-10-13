@@ -24,18 +24,27 @@
     color: white;
     font-size: 25px;
 }
+
 .nomesite a {
     color: blue;
-    margin:0px
+    margin: 0px
 }
 
 @media (max-width: 600px) {
-    .nomesite{
+    .navbar nav{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:5px;
+    }
+
+    .nomesite {
         font-size: 17px;
     }
-    .nomesite a{
+
+    .nomesite a {
         font-size: 18px;
     }
+
     .navbar {
         font-size: 15px;
     }
