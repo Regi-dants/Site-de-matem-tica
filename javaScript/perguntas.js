@@ -8,7 +8,7 @@ const assuntos = [
     {
         titulo: "Geometria <br>Espacial",
         logo: "bi-box",
-        link: "perguntas/geometria-espacial.html"
+        link: "perguntas/Geometria-espacial.html"
     },
     {
         titulo: "Estatística",
