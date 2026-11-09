@@ -1,0 +1,57 @@
+.notificacao-conquista {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: 340px;
+    padding: 15px;
+
+    background: white;
+    border-left: 5px solid #2859c5;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(30px);
+
+    transition: 0.3s ease;
+}
+
+.notificacao-conquista.visivel {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+#emblema-notificacao {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.notificacao-texto h3 {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #2859c5;
+}
+
+.notificacao-texto p {
+    font-size: 13px;
+    margin: 0;
+    color: #555;
+}
+
+@media (max-width: 480px) {
+    .notificacao-conquista {
+        top: 12px;
+        right: 12px;
+        width: auto;
+        left: 12px;
+    }
+}

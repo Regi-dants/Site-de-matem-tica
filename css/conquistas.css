@@ -15,43 +15,22 @@
     height: 300px;
     margin-left: 40px;
     margin-top: 20px;
-    width: 340px;
+    width: 450px;
 }
 
-.apresentacao-informacoes h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    margin-bottom: 0px;
-    font-weight: bold;
-}
-
-.apresentacao-informacoes h2 {
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    color: blue;
-    margin: 0px;
-}
 
 .apresentacao-informacoes p {
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
 
 }
 
 .apresentacao-informacoes a {
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-    background-color: blue;
-    margin-left: 2px;
-    padding: 5px 9px 5px 9px;
-    border-radius: 5px;
-    transition: color 0.9s ease;
+    color:blue;
+    
 }
 
-.apresentacao-informacoes a:hover {
-    color: black;
-}
+
 
 #boas-vindas {
     background-color: rgb(251, 249, 249);
@@ -212,6 +191,14 @@ Organizar Conquistas
 /* ============================= */
 
 @media (max-width: 600px) {
+    .apresentacao-informacoes p{
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    .apresentacao-informacoes a {
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
     .conquist {
 
         width: 180px;

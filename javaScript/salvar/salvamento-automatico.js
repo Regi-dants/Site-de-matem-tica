@@ -8,11 +8,12 @@ if (verificacao == null) {
         Acessos: [],
         Desafio: {
             questoes: []
-        },  
+        },
 
         Conquistas: {
             Completas: [],
-            progresso: {}
+            progresso: {},
+            pop_up: [],
         },
 
         primeiroAcesso: true
@@ -23,6 +24,9 @@ if (verificacao == null) {
 } else {
 
     teste3 = JSON.parse(verificacao);
+    if (!Array.isArray(teste3.Conquistas.pop_up)) {
+        teste3.Conquistas.pop_up = [];
+    }
 }
 
 
@@ -48,18 +52,17 @@ function salvarquestao(question) {
 // SALVAR CONQUISTA
 // -------------------------
 
-function salvarconquista(conquista) {
+function salvarconquista(id) {
+    if (!teste3.Conquistas.Completas.includes(id)) {
+        teste3.Conquistas.Completas.push(id);
 
-    if (!teste3.Conquistas.Completas.includes(conquista)) {
+        teste3.Conquistas.pop_up.push(id);
 
-        teste3.Conquistas.Completas.push(conquista);
-
-        localStorage.setItem(
-            "teste3",
-            JSON.stringify(teste3)
-        );
+        localStorage.setItem("teste3", JSON.stringify(teste3));
     }
 }
+
+
 
 
 // -------------------------

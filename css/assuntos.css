@@ -67,7 +67,7 @@ body {
 
 #add-assuntos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
 
 }
@@ -78,7 +78,7 @@ body {
     background-color: rgb(12, 78, 159);
 }
 
-.criador-assuntos{
+.criador-assuntos {
     width: 250px;
 }
 
@@ -97,10 +97,12 @@ body {
 
     transition: 0.8s;
 }
-.criador-assuntos h2{
+
+.criador-assuntos h2 {
     font-size: 20px;
 }
-.criador-assuntos p{
+
+.criador-assuntos p {
     font-size: 15px;
 
 }
@@ -115,7 +117,7 @@ body {
 @media (max-width: 1024px) {
 
     #add-assuntos {
-        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         margin-top: 10px;
         margin-left: 30px;
     }
@@ -151,7 +153,7 @@ body {
 @media (max-width: 600px) {
 
     #add-assuntos {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 
         display: grid;
         margin-top: 10px;

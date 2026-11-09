@@ -96,9 +96,9 @@
 
     #img-de-fundo {
         width: 100%;
-        max-width: 350px;
+        max-width: 310px;
         height: auto;
-        max-height: 300px;
+        max-height: 270px;
         object-fit: contain;
         margin: 0;
     }
