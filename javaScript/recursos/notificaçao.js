@@ -47,7 +47,12 @@ async function processarFilaConquistas() {
 
             const id = teste3.Conquistas.pop_up[0];
 
+            console.log("Mostrando:", id);
+
             await mostrarNotificacaoConquista(id);
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            console.log("Finalizou:", id);
 
             if (teste3.Conquistas.pop_up[0] === id) {
                 teste3.Conquistas.pop_up.shift();
