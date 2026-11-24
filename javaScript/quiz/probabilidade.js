@@ -52,8 +52,8 @@ const perguntas = [
         img: "../../imagens/Probabilidade/probabilidade-q7.png",
         pergunta: "Desejando-se fazer uma avaliação do poder germinativo de uma das culturas de cebola, \
         uma amostra foi retirada ao acaso. Sabendo-se que a amostra escolhida germinou, a probabilidade de essa amostra pertencer à Cultura A é de",
-        opcoes: ["\\[\\frac{8}{27}\\]", "\\[\\frac{19}{27}\\]", "\\[\\frac{381}{773}\\]", "\\[\\frac{392}{773}\\]", "\\[\\frac{392}{800}\\]"],
-        correta: "\\[\\frac{392}{773}\\]"
+        opcoes: ["\\[\\frac{8}{27}\\]", "\\[\\frac{19}{27}\\]", "\\[\\frac{381}{773}\\]", "\\[ \\frac{392}{773} \\]", "\\[\\frac{392}{800}\\]"],
+        correta: "\\[ \\frac{392}{773} \\]"
     },
     {//q9
         id: "probabilidade-q9",
