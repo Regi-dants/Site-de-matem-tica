@@ -1,29 +1,27 @@
 const perguntas = [
-    { //q1
-        id: "probabilidade-q1",
-        informacoes: "(ENEM 2020) Amigo secreto é uma brincadeira tradicional nas festas de fim de ano.Um grupo de amigos se reúne e cada um deles sorteia o nome da pessoa que irá presentear.No dia da troca de presentes,\
-        uma primeira pessoa presenteia seu amigo secreto. Em seguida, o presenteado revela seu amigo secreto e o presenteia. A brincadeira continua até que todos sejam presenteados,\
-        mesmo no caso em que o ciclo se fecha.Dez funcionários de uma empresa, entre eles um casal, participarão de um amigo secreto. A primeira pessoa a revelar será definida por sorteio.",
-        pergunta: "Qual é a probabilidade de que a primeira pessoa a revelar o seu amigo secreto e a última presenteada sejam as duas pessoas do casal?",
-        opcoes: ["\\(\\frac{1}{5} \\)", "\\(\\frac{1}{45} \\)", "\\(\\frac{1}{50} \\)", "\\(\\frac{1}{90} \\)", "\\(\\frac{1}{100} \\)"],
-        correta: "\\(\\frac{1}{5} \\)"
-    },
+
     { //q2
         id: "probabilidade-q2",
         informacoes: "(ENEM 2014) O número de frutos de uma determinada espécie de planta se distribui de acordo com as probabilidades apresentadas no quadro.",
         img: "../../imagens/Probabilidade/probabilidade-q2.png",
         pergunta: "A probabilidade de que, em tal planta, existam, pelo menos, dois frutos é igual a",
         opcoes: ["3%", "7%", "13%", "16%", "20%"],
-        correta: "20%"
+        correta: "20%",
+        explicacao: "Analizando a questão temos a seguinte informação no enunciado, 'pelo menos, dois frutos é igual a' \
+        no caso ele que saber qual a chance de aparecer dois frutos ou mais, então basta nois somarmos os valores de 2,3,4,5 ou mais frutas e depois multiplicar por 100 \
+        \\[0,13 + 0,3 + 0,3 + 0,1 = 0,20\\] \
+        \\[0,20 \\times 100 = 20\\% \\] \
+        <p style=' color:green;'>Resposta = 20%</p>"
     },
     { //q3
         id: "probabilidade-q3",
-        informacoes: "(ENEM 2014) A probabilidade de um empregado permanecer em uma dada empresa particular por 10 anos ou mais é de 1/6.\
+        informacoes: "(ENEM 2014 ppl) A probabilidade de um empregado permanecer em uma dada empresa particular por 10 anos ou mais é de 1/6.\
         Um homem e uma mulher começam a trabalhar nessa companhia no mesmo dia. Suponha que não haja nenhuma relação entre o trabalho dele\
         e o dela, de modo que seus tempos de permanência na firma são independentes entre si.",
         pergunta: "A probabilidade de ambos, homem e mulher, permanecerem nessa empresa por menos de 10 anos é de",
         opcoes: ["\\[\\frac{60}{36} \\]", "\\[\\frac{25}{36} \\]", "\\[\\frac{24}{36} \\]", "\\[\\frac{12}{36} \\]", "\\[\\frac{1}{36} \\]"],
-        correta: "\\[\\frac{25}{36} \\]"
+        correta: "\\[\\frac{25}{36} \\]",
+        explicacao: ""
     },
     { //q4
         id: "probabilidade-q4",
@@ -76,7 +74,7 @@ const perguntas = [
         img: "../../imagens/Probabilidade/probabilidade-q10.png",
         pergunta: "Escolhendo, aleatoriamente, uma das outras regiões para morar, a probabilidade de ele\
         escolher uma região que seja adequada às recomendações médicas é",
-        opcoes: ["\\[\\frac{1}{5}\\]", "\\[\\frac{1}{4}\\]", "\\[\\frac{2}{5}\\]", "\\[\\frac{3}{5}\\]", "\\[\\frac{3}{4}\\]",],
+        opcoes: ["\\[\\frac{1}{5}\\]", "\\[\\frac{1}{4}\\]", "\\[\\frac{2}{5}\\]", "\\[\\frac{3}{5}\\]", "\\[\\frac{3}{4}\\]"],
         correta: "\\[\\frac{3}{4}\\]"
     },
     {//q12
@@ -127,13 +125,13 @@ const perguntas = [
         opcoes: ["\\[\\frac{1}{100} \\]", "\\[\\frac{19}{100} \\]", "\\[\\frac{20}{100} \\]", "\\[\\frac{21}{100} \\]", "\\[\\frac{80}{100} \\]"],
         correta: "\\[\\frac{20}{100} \\]"
     },
-    
+
 
 
 ];
 //atualmente a 13 questões
 // q1 a q5, q7, q9 a q10, q12 a q14, q17 e q18,
-//
+//<p style=' color:green;'>Resposta = 20%</p>
 
 // Sorteio das perguntas
 const quizatual = "probabilidade";

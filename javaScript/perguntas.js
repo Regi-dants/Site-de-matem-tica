@@ -13,7 +13,7 @@ const assuntos = [
     {
         titulo: "Estatística",
         logo: "bi-bar-chart-line-fill",
-        link: "#"
+        link: "perguntas/estatistica.html"
     },
     {
         titulo: "Porcentagem",
@@ -31,20 +31,16 @@ const assuntos = [
         link: "perguntas/razão-e-proporção.html"
     },
     {
-        titulo: "PA e <br>PG",
+        titulo: "Progreções",
         logo: "bi-pie-chart-fill",
         link: "perguntas/pa-e-pg.html"
     },
     {
-        titulo: "Trigonometria",
-        logo: "bi-compass",
-        link: "#"
+        titulo: "Álgebra e Aritmética",
+        logo: "bi-superscript",
+        link: "perguntas/algebra.html"
     },
-    {
-        titulo: "Geometria <br>Analitica",
-        logo: "bi-bounding-box-circles",
-        link: "#"
-    },
+    
 
 ];
 

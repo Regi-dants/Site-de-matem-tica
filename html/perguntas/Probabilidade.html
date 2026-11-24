@@ -12,9 +12,15 @@
 
     <script>
         window.MathJax = {
+            loader: {
+                load: ['[tex]/cancel']
+            },
             tex: {
                 inlineMath: [['\\(', '\\)']],
-                displayMath: [['\\[', '\\]']]
+                displayMath: [['\\[', '\\]']],
+                packages: {
+                    '[+]': ['cancel']
+                }
             }
         };
     </script>
@@ -53,7 +59,7 @@
     <script src="../../javaScript/salvar/salvamento-automatico.js"></script>
     <script src="../../javaScript/recursos/conquistas.js"></script>
     <script src="../../javaScript/corrijir.js"></script>
-    <script src="../javaScript/recursos/notificaçao.js"></script>
+    <script src="../../javaScript/recursos/notificaçao.js"></script>
 
 </body>
 
