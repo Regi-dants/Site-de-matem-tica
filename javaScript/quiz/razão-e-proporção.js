@@ -196,7 +196,13 @@ const perguntas = [
         pergunta: "Com base nessas informações, qual é a medida mais aproximada do comprimento do lápis?",
         opcoes: ["10cm", "18cm", "19cm", "26cm", "41cm"],
         correta: "19cm",
-        explicacao: ""
+        explicacao: "De acordo com o enunciado, o comprimento da lousa equivale a 13 livros e meio (13,5 livros)\
+         e também a 20 lápis. Como o livro mede 28 cm, primeiro calculamos o comprimento total da lousa:<br>\
+        Comprimento da lousa:\
+        \\[ 13,5 \\times 28 = 378 \\text{ cm} \\]\
+        Agora, dividimos o comprimento total da lousa pela quantidade de lápis (20) para descobrir a medida de cada lápis:\
+        \\[ \\frac{378}{20} = 18,9 \\approx 19 \\text{ cm} \\]\
+        <p style='color:green;'>Resposta = 19 cm</p>"
     },
     {
         id: "razão-e-proporção-18",
